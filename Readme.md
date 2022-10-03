@@ -1,13 +1,14 @@
-`npm install @bilions/thailand-address`
+`npm install @zonxpk/thailand-address`
 
-`import thailandAddress from '@bilions/thailand-address'`
+`import thailandAddress from '@zonxpk/thailand-address'`
 
-`let thailandAddress = require('@bilions/thailand-address')`
+`let thailandAddress = require('@zonxpk/thailand-address')`
 
 ```
 console.log(thailandAddress.getProvinces())
 console.log(thailandAddress.getDistricts(1))
 console.log(thailandAddress.getSubDistricts(1))
+console.log(thailandAddress.getZipCodeBySubDistrict(1))
 ```
 
 - `getProvinces()`
@@ -15,3 +16,5 @@ console.log(thailandAddress.getSubDistricts(1))
 - `getDistricts(provinceId)`
 
 - `getSubDistricts(districtId)`
+
+- `getZipCodeBySubDistrict(subDistrictId)`
