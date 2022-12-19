@@ -6,15 +6,25 @@
 
 ```
 console.log(thailandAddress.getProvinces())
+console.log(thailandAddress.getProvinceById(1))
 console.log(thailandAddress.getDistricts(1))
+console.log(thailandAddress.getDistrictById(1))
 console.log(thailandAddress.getSubDistricts(1))
+console.log(thailandAddress.getSubDistrictById(1))
 console.log(thailandAddress.getZipCodeBySubDistrict(1))
 ```
 
-- `getProvinces()`
+- `getProvinces())`
 
-- `getDistricts(provinceId)`
+- `getProvinceById(provinceId))`
 
-- `getSubDistricts(districtId)`
+- `getDistricts(provinceId))`
 
-- `getZipCodeBySubDistrict(subDistrictId)`
+- `getDistrictById(districtId))`
+
+- `getSubDistricts(subDistrictId))`
+
+- `getSubDistrictById(subDistrictId))`
+
+- `getZipCodeBySubDistrict(subDistrictId))`
+
